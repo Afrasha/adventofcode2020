@@ -3,7 +3,5 @@
 ################################################################################
 
 /bin/Debug/netcoreapp3.1
-/.vs/AdventOfCode2020/DesignTimeBuild
-/.vs/AdventOfCode2020/v16/.suo
-/.vs/slnx.sqlite
 /obj
+/.vs
