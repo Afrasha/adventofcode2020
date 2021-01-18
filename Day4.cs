@@ -46,7 +46,7 @@ namespace AdventOfCode2020
                     {
                         valid = false;
                         break;
-                    }                                     
+                    }
                 }
 
                 if (valid && validEntry(entries))
@@ -80,7 +80,7 @@ namespace AdventOfCode2020
                         if (value.Length != 4 || birthYear < 1920 || birthYear > 2002)
                         {
                             return false;
-                        }                      
+                        }
                         break;
                     case "iyr":
                         int issueYear = int.Parse(value);
@@ -122,7 +122,7 @@ namespace AdventOfCode2020
                         if (!Regex.IsMatch(value, "#[0-9a-f]{6}"))
                         {
                             return false;
-                        }                       
+                        }
                         break;
                     case "ecl":
                         if (!eyeColor.Contains(value))
